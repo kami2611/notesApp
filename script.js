@@ -5,4 +5,9 @@ bgChangeButton.addEventListener('click', ()=>{
 const header = document.getElementById('header');
 header.addEventListener('click', ()=>{
     header.classList.add('header-class');
-})
+});
+const timer = document.getElementById('timer');
+setInterval(() => {
+    timer.innerText+='69'; 
+    //yet to be added.
+}, 1000);
