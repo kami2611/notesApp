@@ -8,6 +8,8 @@ header.addEventListener('click', ()=>{
 });
 const timer = document.getElementById('timer');
 setInterval(() => {
-    timer.innerText+='74'; 
+    const now = new Date();
+const formattedDate = now.toLocaleString();
+    timer.innerText+=formattedDate , ' ' ; 
     //yet to be added.
 }, 1000);
