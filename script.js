@@ -8,6 +8,6 @@ header.addEventListener('click', ()=>{
 });
 const timer = document.getElementById('timer');
 setInterval(() => {
-    timer.innerText+='69'; 
+    timer.innerText+='kamran aslam'; 
     //yet to be added.
 }, 1000);
