@@ -3,3 +3,7 @@ body
     color: white;
     background-color: black;
 }
+.header-class
+{
+    font-size: 40px;
+}
