@@ -2,6 +2,9 @@ const bgChangeButton = document.getElementById('backGroundChangeAlert');
 bgChangeButton.addEventListener('click', ()=>{
     alert('backGround changed alert');
 });
+document.getElementById('dontchangebackground').addEventListener('click', ()=>{
+    alert("nothing happened");
+})
 const header = document.getElementById('header');
 header.addEventListener('click', ()=>{
     header.classList.add('header-class');
