@@ -16,3 +16,10 @@ const formattedDate = now.toLocaleString();
     timer.innerText+=formattedDate , ' ' ; 
     //yet to be added.
 }, 1000);
+function mainFeature()
+{
+    for (let i = 0; i < 10; i++) {
+        console.log(i);
+    }
+}
+mainFeature();
